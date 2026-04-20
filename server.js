@@ -306,6 +306,7 @@ app.post("/login", async (req, res) => {
 // GET /weather?city=Riyadh
 // =========================
 app.get("/weather", async (req, res) => {
+  console.log("Weather route working");
   try {
     const auth = req.headers.authorization;
 
