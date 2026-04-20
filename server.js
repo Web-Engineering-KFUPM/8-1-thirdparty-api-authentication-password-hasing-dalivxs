@@ -272,6 +272,7 @@ app.post("/register", async (req, res) => {
 // POST /login
 // =========================
 app.post("/login", async (req, res) => {
+  console.log("Login route working");
   try {
     const { email, password } = req.body || {};
 
